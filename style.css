@@ -1,0 +1,181 @@
+/* general style*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(./images/backgroung.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 95vw;
+    height: 95vh;
+    border-image-slice: fill;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+    width: 100vw;
+    height: 9vh;
+}
+
+/* borad style*/
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+
+
+
+}
+
+.b0 {
+    grid-area: b0;
+}
+
+.b1 {
+    grid-area: b1;
+}
+
+.b2 {
+    grid-area: b2;
+}
+
+.b3 {
+    grid-area: b3;
+}
+
+.b4 {
+    grid-area: b4;
+}
+
+.b5 {
+    grid-area: b5;
+}
+
+.b6 {
+    grid-area: b6;
+}
+
+.b7 {
+    grid-area: b7;
+}
+
+.b8 {
+    grid-area: b8;
+}
+
+.b9 {
+    grid-area: b9;
+}
+
+.bC {
+
+    grid-area: bC;
+}
+
+.b {
+
+    grid-area: b;
+}
+
+.Addition {
+
+    grid-area: Addition;
+}
+
+.Multiplication {
+    grid-area: Multiplication;
+
+}
+
+.Division {
+    grid-area: Division;
+}
+
+.Subtraction {
+    grid-area: Subtraction;
+}
+
+
+
+#calculator {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+
+        "b7 b8 b9 Addition result"
+        "b4 b5 b6 Multiplication result"
+        "b1 b2 b3 Division result"
+        "bC b0 b0 Subtraction result";
+    gap: .625rem;
+
+}
+
+#input-calculator {
+    width: 265px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(83, 76, 76, 0.3);
+    transition: transform 0.2s ease-in-out;
+    opacity: 0.8;
+}
+
+.button-calculator {
+    padding: 10px 20px;
+    margin: 5px;
+
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    opacity: 0.8;
+}
+
+.button-calculator:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+}
+
+.button-calculator:active {
+    transform: scale(0.9);
+}
+
+
+
+/*result style*/
+
+#inpuText {
+    color: black;
+    background-color: #66dcf6;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 30px;
+    width: 300px;
+
+}
+
+#result {
+    grid-area: result;
+    width: 50px;
+    height: 250px !important;
+}
+
+#picture {
+    width: 100%;
+    height: 100%;
+
+
+}
