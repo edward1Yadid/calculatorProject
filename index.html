@@ -4,36 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>CalculatorProject</title>
 </head>
 
 <body>
-    <h1 id="header">calculator machine Project-single digits</h1>
+    <h1 id="header">calculator machine Project</h1>
     <div id="container">
-        <div><input id="input-calculator" type="text" value="0">
+        <div>
+            <p id="input-calculator" type="text">
 
         </div>
 
 
         <div id="calculator">
 
-            <button id="result" class="button-calculator =" type="button">=</button>
-            <button title=" press 0" id="b0" class="button-calculator b0" type="button">0</button>
-            <button title=" press 1" id="b1" class="button-calculator b1" type="button">1</button>
-            <button title=" press 2" id="b2" class="button-calculator b2" type="button">2</button>
-            <button title=" press 3" id="b3" class="button-calculator b3" type="button">3</button>
-            <button title=" press 4" id="b4" class="button-calculator b4" type="button">4</button>
-            <button title=" press 5" id="b5" class="button-calculator b5" type="button">5</button>
-            <button title=" press 6" id="b6" class="button-calculator b6" type="button">6</button>
-            <button title=" press 7" id="b7" class="button-calculator b7" type="button">7</button>
-            <button title=" press 8" id="b8" class="button-calculator b8" type="button">8</button>
-            <button title=" press 9" id="b9" class="button-calculator b9" type="button">9</button>
-            <button id="bC" class="button-calculator bC" type="button">C</button>
-            <button id="Addition" class="button-calculator" type="button">+</button>
-            <button id="Subtraction" class="button-calculator" type="button">-</button>
-            <button id="Multiplication" class="button-calculator" type="button">*</button>
-            <button id="Division" class="button-calculator" type="button">/</button>
+            <button id="result" type="button">=</button>
+            <button title=" press 0" class="button-calculator b0" type="button" onclick="chacngeColor(this)">0 </button>
+            <button title=" press 1" class="button-calculator b1" type="button" onclick="chacngeColor(this)">1</button>
+            <button title=" press 2" class="button-calculator b2" type="button" onclick="chacngeColor(this)">2</button>
+            <button title=" press 3" class="button-calculator b3" type="button" onclick="chacngeColor(this)">3</button>
+            <button title=" press 4" class="button-calculator b4" type="button" onclick="chacngeColor(this)">4</button>
+            <button title=" press 5" class="button-calculator b5" type="button" onclick="chacngeColor(this)">5</button>
+            <button title=" press 6" class="button-calculator b6" type="button" onclick="chacngeColor(this)">6</button>
+            <button title=" press 7" class="button-calculator b7" type="button" onclick="chacngeColor(this)">7</button>
+            <button title=" press 8" class="button-calculator b8" type="button" onclick="chacngeColor(this)">8</button>
+            <button title=" press 9" class="button-calculator b9" type="button" onclick="chacngeColor(this)">9</button>
+            <button id="bC" class=" bC" type="button" onclick="chacngeColor(this)">C</button>
+            <button id="Addition" class="button-operator" type="button" onclick="chacngeColor(this)">+</button>
+            <button id="Subtraction" class="button-operator" type="button" onclick="chacngeColor(this)">-</button>
+            <button id="Multiplication" class="button-operator" type="button" onclick="chacngeColor(this)">*</button>
+            <button id="Division" class="button-operator" type="button" onclick="chacngeColor(this)">/</button>
 
 
 
@@ -41,10 +42,10 @@
 
         </div>
 
-        <p id="inpuText"></p>
+
     </div>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
