@@ -37,9 +37,19 @@ Perform Calculations:
 
 Use the buttons to input numbers and perform calculations.
 Click operators (+, -, *, /) to perform respective operations.
-Evaluate Expressions:
+Usage
+--Launch the Calculator:
+
+Open the index.html file in a web browser.
+--Perform Calculations:
+
+Use the buttons to input numbers and perform calculations.
+Click operators (+, -, *, /) to perform respective operations.
+--Evaluate Expressions:
 
 Input mathematical expressions (e.g., 3 + 5 * 2) and press "=" to evaluate the result.
-Clear and Reset:
+Note: The evaluation of expressions is performed with a controlled usage of JavaScript's eval() function. In this specific context, the usage is carefully managed, minimizing potential risks associated with eval().
 
+--Clear and Reset:
 Use the "C" button to clear the current input or calculation.
+
