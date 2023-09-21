@@ -21,7 +21,7 @@ const operatorsButtons = document.querySelectorAll(".button-operator");
 operatorsButtons.forEach((button) => {
   button.addEventListener("click", () => insertOperator(button.innerText));
 });
-//event listenert for brackets
+//Event listeners for brackets
 
 const brackets = document.querySelectorAll(".button-brackets");
 brackets.forEach((button) => {

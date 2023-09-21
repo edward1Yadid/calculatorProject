@@ -89,10 +89,6 @@ h1 {
     grid-area: bC;
 }
 
-.b {
-
-    grid-area: b;
-}
 
 .Addition {
 
@@ -113,6 +109,25 @@ h1 {
 }
 
 
+#bracketsleft {
+
+    grid-area: bracketsleft;
+}
+
+#bracketsright {
+
+    grid-area: bracketsright;
+}
+
+#dot {
+
+    grid-area: Dott;
+}
+
+#Modulus {
+
+    grid-area: Modulus;
+}
 
 #calculator {
     display: grid;
@@ -123,7 +138,9 @@ h1 {
         "b7 b8 b9 Addition result"
         "b4 b5 b6 Multiplication result"
         "b1 b2 b3 Division result"
-        "bC b0 b0 Subtraction result";
+        "bC b0 b0 Subtraction result"
+        "bracketsleft bracketsright Dott Modulus result ";
+
     gap: .625rem;
 
 }
@@ -142,7 +159,8 @@ h1 {
 
 .button-calculator,
 .button-operator,
-#bC {
+#bC,
+.button-brackets {
     padding: 10px 20px;
     margin: 5px;
     color: #000000;
