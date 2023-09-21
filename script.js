@@ -21,6 +21,12 @@ const operatorsButtons = document.querySelectorAll(".button-operator");
 operatorsButtons.forEach((button) => {
   button.addEventListener("click", () => insertOperator(button.innerText));
 });
+//event listenert for brackets
+
+const brackets = document.querySelectorAll(".button-brackets");
+brackets.forEach((button) => {
+  button.addEventListener("click", () => insetbracketsleft(button.innerText));
+});
 
 // Event listener for result button
 resultButton.addEventListener("click", calculate);
@@ -30,6 +36,10 @@ bC.addEventListener("click", clearCalculator);
 
 // Function to insert a number
 function insertNumber(value) {
+  number += value;
+  inputCalculator.innerText += value;
+}
+function insetbracketsleft(value) {
   number += value;
   inputCalculator.innerText += value;
 }
@@ -51,7 +61,7 @@ function calculate() {
     if (number !== "") {
       calculationArray.push(number);
       console.log(calculationArray);
-      const result = eval(calculationArray.join(" "));
+      const result = eval(calculationArray.join(""));
       inputCalculator.innerText = result;
     }
   } catch {
