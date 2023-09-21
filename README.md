@@ -36,7 +36,7 @@ Open the index.html file in a web browser.
 Perform Calculations:
 
 Use the buttons to input numbers and perform calculations.
-Click operators (+, -, *, /) to perform respective operations.
+Click operators (+, -, *, /,%,()) to perform respective operations.
 ## Usage
 1. Launch the Calculator:
 Open the index.html file in a web browser.
@@ -44,7 +44,7 @@ Open the index.html file in a web browser.
 2. Perform Calculations:
 
 Use the buttons to input numbers and perform calculations.
-Click operators (+, -, *, /) to perform respective operations.
+Click operators  (+, -, *, /,%,()) to perform respective operations.
 
 3. Evaluate Expressions:
 
