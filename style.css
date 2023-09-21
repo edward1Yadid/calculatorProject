@@ -155,6 +155,26 @@ h1 {
     background-color: rgb(197, 197, 160);
 }
 
+@media screen and (max-width:342px) {
+
+    .button-calculator,
+    .button-operator,
+    #bC,
+    .button-brackets {
+        padding: 5px 10px;
+
+    }
+
+    #input-calculator {
+
+        width: 205px;
+    }
+
+    #calculator {
+
+        gap: .325rem;
+    }
+}
 
 
 .button-calculator,
